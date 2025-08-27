@@ -1,0 +1,19 @@
+{
+    "name": "Conversor PWA",
+    "short_name": "Conversor",
+    "description": "Aplicativo mal feito para converter moedas",
+    "start_url": "https://leozitos96.github.io/conversor-de-moedas/",
+    "background_color": "rgb(135, 184, 135)",
+    "theme_color": "#ddd",
+    "scope": "https://leozitos96.github.io/conversor-de-moedas/",
+    "display": "standalone",
+    "incons":[
+    ],
+    "lang": "pt-br",
+    "dir": "auto",
+    "categories": [
+        "util"
+    ],
+    "id": "pwa_teste",
+    "orientation": "any"
+}
