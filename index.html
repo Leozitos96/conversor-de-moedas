@@ -33,6 +33,7 @@
     </div>
     <script src="./scripts/app.js"></script>
 	<script>
+        importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 		if(typeof navigator.serviceWorker !== "undefined"){
 			navigator.serviceWorker.register('pwabuilder-sw.js');
 		}
@@ -40,6 +41,14 @@
             navigator.setAppBadge(1);
         }
         Notification.requestPermission();
+                self.addEventListener("push", (event) => {
+        event.waitUntil(
+            self.registration.showNotification('CONVERTA',{ 
+            body: 'Corpo da notificação',
+            icon: 'icon.png'
+            }),
+        );
+        });
 	</script>
 </body>
 </html>

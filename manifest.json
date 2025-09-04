@@ -4,7 +4,7 @@
   "description": "Aplicativo mal feito para converter moedas",
   "start_url": "https://leozitos96.github.io/conversor-de-moedas/",
   "scope": "https://leozitos96.github.io/conversor-de-moedas/",
-  "display": "fullscreen",
+  "display": "standalone",
   "lang": "pt-br",
   "dir": "auto",
   "icons": [
