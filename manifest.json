@@ -461,5 +461,7 @@
     "util"
   ],
   "id": "pwa_teste",
-  "orientation": "portrait"
+  "orientation": "portrait-primary",
+  "theme_color": "#000000",
+  "background_color": "#000000"
 }

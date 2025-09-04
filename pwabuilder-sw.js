@@ -4,6 +4,15 @@ const CACHE = "pwabuilder-offline-page";
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
+self.addEventListener("push", (event) => {
+  event.waitUntil(
+    self.registration.showNotification('CONVERTA',{ 
+      body: 'Corpo da notificação',
+      icon: 'icon.png'
+    }),
+  );
+});
+
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
 const offlineFallbackPage = "ToDo-replace-this-name.html";
 
