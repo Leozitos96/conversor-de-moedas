@@ -3,8 +3,6 @@
   "short_name": "Conversor",
   "description": "Aplicativo mal feito para converter moedas",
   "start_url": "https://leozitos96.github.io/conversor-de-moedas/",
-  "background_color": "#87b88",
-  "theme_color": "#ddd",
   "scope": "https://leozitos96.github.io/conversor-de-moedas/",
   "display": "fullscreen",
   "lang": "pt-br",
