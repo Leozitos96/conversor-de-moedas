@@ -6,7 +6,7 @@
   "background_color": "#87b88",
   "theme_color": "#ddd",
   "scope": "https://leozitos96.github.io/conversor-de-moedas/",
-  "display": "standalone",
+  "display": "fullscreen",
   "lang": "pt-br",
   "dir": "auto",
   "icons": [
@@ -463,5 +463,5 @@
     "util"
   ],
   "id": "pwa_teste",
-  "orientation": "any"
+  "orientation": "portrait"
 }
